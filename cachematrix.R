@@ -1,5 +1,5 @@
-## functions do
-## Write a short comment describing this function
+## This function creates a square matrix and stores it in the cache
+## It also calculates the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -15,7 +15,6 @@ makeCacheMatrix <- function(x = matrix()) {
              setinv = setinv,
              getinv = getinv)
 }
-
 
 ## This function returns the inverse of the matrix x from the cache
 
